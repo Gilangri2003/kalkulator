@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+   <form action="post" id="from">
+       <table border="4">
+           <h1>Kalkulator</h1>
+           <!-- start input -->
+           <div class="input">
+                <input type="text" name="hasil" class="input1"> <input type="checkbox" class="chek1" name="cek">
+                <input type="text" name="hasil" class="input1"> <input type="checkbox" class="chek1" name="cek">
+                <input type="text" name="hasil" class="input1"> <input type="checkbox" class="chek1" name="cek">
+           </div>
+           <!-- end input -->
+
+           <!-- start chekbox -->
+           <div class="chek">
+               
+           </div>
+           <!-- end chekbox -->
+           <!-- start button -->
+               <input type="button" class="btn" value="+" onclick="insert()">
+               <input type="button" class="btn" value="-" onclick="insert()">
+               <input type="button" class="btn" value="*" onclick="insert()">
+               <input type="button" class="btn" value="/" onclick="insert()">
+           <!-- end button -->
+           <hr>
+           <h2>Hasil : <input type="text" name="hasil" class="hasil2"></h2>
+       </table>
+
+   </form>
+</body>
+</html>
